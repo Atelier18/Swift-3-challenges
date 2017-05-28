@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96C0C11A1ED9F30700018ADC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C0C1191ED9F30700018ADC /* AppDelegate.swift */; };
+		96C0C11C1ED9F30700018ADC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C0C11B1ED9F30700018ADC /* ViewController.swift */; };
+		96C0C11F1ED9F30700018ADC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96C0C11D1ED9F30700018ADC /* Main.storyboard */; };
+		96C0C1211ED9F30700018ADC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96C0C1201ED9F30700018ADC /* Assets.xcassets */; };
+		96C0C1241ED9F30700018ADC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96C0C1221ED9F30700018ADC /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		96C0C1161ED9F30700018ADC /* Swift3-005-Use UIImagePickerController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift3-005-Use UIImagePickerController.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96C0C1191ED9F30700018ADC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		96C0C11B1ED9F30700018ADC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		96C0C11E1ED9F30700018ADC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		96C0C1201ED9F30700018ADC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		96C0C1231ED9F30700018ADC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		96C0C1251ED9F30700018ADC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96C0C1131ED9F30700018ADC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96C0C10D1ED9F30700018ADC = {
+			isa = PBXGroup;
+			children = (
+				96C0C1181ED9F30700018ADC /* Swift3-005-Use UIImagePickerController */,
+				96C0C1171ED9F30700018ADC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96C0C1171ED9F30700018ADC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96C0C1161ED9F30700018ADC /* Swift3-005-Use UIImagePickerController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96C0C1181ED9F30700018ADC /* Swift3-005-Use UIImagePickerController */ = {
+			isa = PBXGroup;
+			children = (
+				96C0C1191ED9F30700018ADC /* AppDelegate.swift */,
+				96C0C11B1ED9F30700018ADC /* ViewController.swift */,
+				96C0C11D1ED9F30700018ADC /* Main.storyboard */,
+				96C0C1201ED9F30700018ADC /* Assets.xcassets */,
+				96C0C1221ED9F30700018ADC /* LaunchScreen.storyboard */,
+				96C0C1251ED9F30700018ADC /* Info.plist */,
+			);
+			path = "Swift3-005-Use UIImagePickerController";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96C0C1151ED9F30700018ADC /* Swift3-005-Use UIImagePickerController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96C0C1281ED9F30700018ADC /* Build configuration list for PBXNativeTarget "Swift3-005-Use UIImagePickerController" */;
+			buildPhases = (
+				96C0C1121ED9F30700018ADC /* Sources */,
+				96C0C1131ED9F30700018ADC /* Frameworks */,
+				96C0C1141ED9F30700018ADC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swift3-005-Use UIImagePickerController";
+			productName = "Swift3-005-Use UIImagePickerController";
+			productReference = 96C0C1161ED9F30700018ADC /* Swift3-005-Use UIImagePickerController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96C0C10E1ED9F30700018ADC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Atelier18;
+				TargetAttributes = {
+					96C0C1151ED9F30700018ADC = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = LYS4UW62E8;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 96C0C1111ED9F30700018ADC /* Build configuration list for PBXProject "Swift3-005-Use UIImagePickerController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96C0C10D1ED9F30700018ADC;
+			productRefGroup = 96C0C1171ED9F30700018ADC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96C0C1151ED9F30700018ADC /* Swift3-005-Use UIImagePickerController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96C0C1141ED9F30700018ADC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96C0C1241ED9F30700018ADC /* LaunchScreen.storyboard in Resources */,
+				96C0C1211ED9F30700018ADC /* Assets.xcassets in Resources */,
+				96C0C11F1ED9F30700018ADC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96C0C1121ED9F30700018ADC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96C0C11C1ED9F30700018ADC /* ViewController.swift in Sources */,
+				96C0C11A1ED9F30700018ADC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		96C0C11D1ED9F30700018ADC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96C0C11E1ED9F30700018ADC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		96C0C1221ED9F30700018ADC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96C0C1231ED9F30700018ADC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96C0C1261ED9F30700018ADC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		96C0C1271ED9F30700018ADC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96C0C1291ED9F30700018ADC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LYS4UW62E8;
+				INFOPLIST_FILE = "Swift3-005-Use UIImagePickerController/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.atelier18.Swift3-005-Use-UIImagePickerController";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		96C0C12A1ED9F30700018ADC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LYS4UW62E8;
+				INFOPLIST_FILE = "Swift3-005-Use UIImagePickerController/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.atelier18.Swift3-005-Use-UIImagePickerController";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96C0C1111ED9F30700018ADC /* Build configuration list for PBXProject "Swift3-005-Use UIImagePickerController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96C0C1261ED9F30700018ADC /* Debug */,
+				96C0C1271ED9F30700018ADC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96C0C1281ED9F30700018ADC /* Build configuration list for PBXNativeTarget "Swift3-005-Use UIImagePickerController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96C0C1291ED9F30700018ADC /* Debug */,
+				96C0C12A1ED9F30700018ADC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96C0C10E1ED9F30700018ADC /* Project object */;
+}
